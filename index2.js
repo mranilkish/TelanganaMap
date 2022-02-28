@@ -6,7 +6,7 @@ d3.xml("t.svg",
                  b=[];
 
      d3.selectAll('path.tel')
-       .style("fill", "red")
+       .style("fill", "lightgreen")
        .on("mouseover", function(d) {
           {
          d3.select(this).style("fill", "blue");
